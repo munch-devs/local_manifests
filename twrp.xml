@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="munchdevs-github" 
+                fetch="https://github.com/munch-devs"
+                revision="vic"
+                clone-depth="1" />
+        
+        <!-- Device Trees -->
+        <project path="device/xiaomi/munch" name="twrp_device_xiaomi_munch" remote="munchdevs-github" revision="twrp-12.1" />
+
+        <!-- Kernel-->
+        <project path="kernel/xiaomi/munch" name="AOSPA/android_kernel_xiaomi_sm8250" remote="github" revision="uvite" />
+</manifest>
