@@ -11,13 +11,13 @@
                 clone-depth="1" />
 
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="infinity" />
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="17" />
 
         <!-- Vendor Trees-->
-        <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" />
+        <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" revision="17" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="e404" />
+        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="los" />
 
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-codeberg" />
