@@ -32,5 +32,5 @@
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
 
         <!-- Private Key-->
-        <project path="vendor/private-keys" name="private-keys" remote="munchdevs-github" revision="main" />
+        <project path="vendor/private-keys" name="private-keys" remote="munchdevs-github" revision="17" />
   </manifest>
