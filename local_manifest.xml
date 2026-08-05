@@ -23,7 +23,7 @@
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-codeberg" />
 
         <!-- Miui Camera-->
-        <!--<project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-codeberg" />-->
+        <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-codeberg" />
 
         <!-- Hardware Dolby-->
         <project path="hardware/dolby" name="android_hardware_dolby" remote="munchdevs-github" revision="main" />
