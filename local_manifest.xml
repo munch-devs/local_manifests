@@ -15,7 +15,7 @@
                 clone-depth="1" />
 
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="16.2" />
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="16.2-infinity" />
 
         <!-- Vendor Trees-->
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" />
@@ -33,8 +33,8 @@
         <project path="hardware/dolby" name="android_hardware_dolby" remote="munchdevs-github" revision="main" />
 
         <!-- Hardware Xiaomi-->
-        <!--<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />-->
+        <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-23.2" />
 
         <!-- Private Key-->
-        <project path="vendor/private-keys" name="private-keys" remote="munchdevs-github" revision="main" />
+        <project path="vendor/private-keys" name="infinity-priv" remote="munchdevs-github" revision="infinity" />
   </manifest>
