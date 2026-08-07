@@ -22,7 +22,7 @@
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" revision="17t" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="los" />
+        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="main" />
 
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-codeberg" />
