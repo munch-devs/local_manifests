@@ -6,16 +6,16 @@
 
         <remote name="munchdevs-github" 
                 fetch="https://github.com/munch-devs"
-                revision="16.2"
+                revision="17"
                 clone-depth="1" />
         
         <remote name="munchdevs-codeberg"
                 fetch="https://codeberg.org/munch-devs"
-                revision="16.2" 
+                revision="17" 
                 clone-depth="1" />
 
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="16.2-hertzify" />
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="17-hertzify" />
 
         <!-- Vendor Trees-->
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" />
