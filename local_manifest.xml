@@ -9,11 +9,6 @@
                 revision="17"
                 clone-depth="1" />
         
-        <remote name="munchdevs-codeberg"
-                fetch="https://codeberg.org/munch-devs"
-                revision="17" 
-                clone-depth="1" />
-
         <!-- Device Trees -->
         <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="17-hertzify" />
 
@@ -24,10 +19,10 @@
         <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="main" />
 
         <!-- Firmware-->
-        <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-codeberg" />
+        <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-github" />
 
         <!-- Miui Camera-->
-        <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-codeberg" />
+        <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-github" />
 
         <!-- Hardware Dolby-->
         <project path="hardware/dolby" name="android_hardware_dolby" remote="munchdevs-github" revision="main" />
