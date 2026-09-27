@@ -27,6 +27,9 @@
         <!-- Hardware Dolby-->
         <project path="vendor/dolby" name="android_vendor_dolby" remote="munchdevs-github" revision="main" />
 
+        <!-- Dolby-->
+        <project path="packages/apps/dolby" name="avalon-stuffs/android_packages_apps_LunarisDolby" remote="github" revision="seventeen" />
+
         <!-- Hardware Xiaomi-->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
 
