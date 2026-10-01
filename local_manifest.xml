@@ -16,7 +16,7 @@
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="main" />
+        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="fd" />
 
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-github" />
@@ -28,7 +28,7 @@
         <project path="vendor/dolby" name="android_vendor_dolby" remote="munchdevs-github" revision="main" />
 
         <!-- Dolby-->
-        <project path="packages/apps/dolby" name="avalon-stuffs/android_packages_apps_LunarisDolby" remote="github" revision="seventeen" />
+        <project path="packages/apps/dolby" name="android_packages_apps_LunarisDolby" remote="munchdevs-github" revision="main" />
 
         <!-- Hardware Xiaomi-->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
