@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="github"
+        <!--<remote name="github"
                 fetch="https://github.com/"
-                clone-depth="1" />
+                clone-depth="1" />-->
 
         <remote name="munchdevs-github" 
                 fetch="https://github.com/munch-devs"
@@ -10,13 +10,13 @@
                 clone-depth="1" />
         
         <!-- Device Trees -->
-        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="17-hertzify" />
+        <project path="device/xiaomi/munch" name="android_device_xiaomi_munch" remote="munchdevs-github" revision="17-infinity" />
 
         <!-- Vendor Trees-->
         <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="munchdevs-github" />
 
         <!-- Kernel-->
-        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="fd" />
+        <project path="kernel/xiaomi/munch" name="android_kernel_xiaomi_munch" remote="munchdevs-github" revision="e404" />
 
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-github" />
@@ -25,11 +25,14 @@
         <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-github" />
 
         <!-- Hardware Dolby-->
-        <project path="hardware/dolby" name="android_hardware_dolby" remote="munchdevs-github" revision="main" />
+        <project path="vendor/dolby" name="android_vendor_dolby" remote="munchdevs-github" revision="main" />
+
+        <!-- Dolby-->
+        <project path="packages/apps/dolby" name="android_packages_apps_LunarisDolby" remote="munchdevs-github" revision="main" />
 
         <!-- Hardware Xiaomi-->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
 
         <!-- Private Key-->
-        <project path="vendor/hertzify-priv" name="private-keys" remote="munchdevs-github" revision="hertzify" />
+        <project path="vendor/infinity-priv" name="private-keys" remote="munchdevs-github" revision="infinity" />
   </manifest>
