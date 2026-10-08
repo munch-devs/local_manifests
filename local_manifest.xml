@@ -21,11 +21,9 @@
         <!-- Firmware-->
         <project path="vendor/xiaomi/munch-firmware" name="android_vendor_xiaomi_munch-firmware" remote="munchdevs-github" />
 
+        <!-- MiuiCamera-->
         <project path="vendor/xiaomi/miuicamera" name="android_vendor_xiaomi_miuicamera" remote="munchdevs-github" />
-
-        <!-- Hardware Dolby-->
-        <project path="vendor/dolby" name="android_vendor_dolby" remote="munchdevs-github" revision="main" />
-
+        
         <!-- Hardware Xiaomi-->
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-24.0" />
 
